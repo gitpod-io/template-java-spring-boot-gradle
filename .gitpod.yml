@@ -1,2 +1,14 @@
 tasks:
   - init: ./gradlew build
+
+vscode:
+  extensions:
+    - pivotal.vscode-spring-boot
+    - vscjava.vscode-java-pack
+
+jetbrains:
+  intellij:  
+    plugins:
+      - com.haulmont.jpab
+    prebuilds:
+      version: both
